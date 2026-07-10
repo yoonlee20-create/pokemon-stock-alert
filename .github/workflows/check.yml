@@ -1,5 +1,8 @@
 name: Pokemon Stock Alert
 
+permissions:
+  contents: read
+  
 on:
   workflow_dispatch:
   schedule:
